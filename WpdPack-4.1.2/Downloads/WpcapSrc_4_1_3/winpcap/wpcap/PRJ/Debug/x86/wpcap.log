@@ -1,0 +1,77 @@
+﻿Build started 5/14/2014 9:49:45 AM.
+     1>Project "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\wpcap.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\packetNtx\Dll\Project\Debug\x86 ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"wpcap.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.lib" /MACHINE:X86 /SAFESEH /DLL "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\version.res"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\bpf_dump.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\bpf_filter.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\bpf_image.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\etherent.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\fad-win32.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\ffs.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\gencode.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\getservent.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\grammar.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\inet.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\nametoaddr.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\optimize.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\pcap-new.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\pcap-remote.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\pcap-tc.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\pcap-win32.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\pcap.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\savefile.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\scanner.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\sockutils.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Debug\x86\Win32-Extensions.obj"
+         "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\libpcapd.lib"
+     1>bpf_dump.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.lib and object F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.exp
+     1>wpcapd.exp : warning LNK4070: /OUT:wpcap.dll directive in .EXP differs from output filename 'F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.dll'; ignoring directive
+     1>pcap-win32.obj : error LNK2001: unresolved external symbol _snprintf
+     1>pcap.obj : error LNK2001: unresolved external symbol _snprintf
+     1>savefile.obj : error LNK2001: unresolved external symbol _snprintf
+     1>Win32-Extensions.obj : error LNK2001: unresolved external symbol _snprintf
+     1>optimize.obj : error LNK2001: unresolved external symbol _snprintf
+     1>pcap-new.obj : error LNK2001: unresolved external symbol _snprintf
+     1>pcap-remote.obj : error LNK2001: unresolved external symbol _snprintf
+     1>pcap-tc.obj : error LNK2001: unresolved external symbol _snprintf
+     1>bpf_image.obj : error LNK2019: unresolved external symbol _snprintf referenced in function _bpf_image
+     1>fad-win32.obj : error LNK2001: unresolved external symbol _snprintf
+     1>gencode.obj : error LNK2001: unresolved external symbol _snprintf
+     1>inet.obj : error LNK2001: unresolved external symbol _snprintf
+     1>fad-win32.obj : error LNK2019: unresolved external symbol _PacketGetAdapterNames referenced in function _pcap_findalldevs
+     1>inet.obj : error LNK2001: unresolved external symbol _PacketGetAdapterNames
+     1>fad-win32.obj : error LNK2019: unresolved external symbol _PacketGetNetInfoEx referenced in function _pcap_add_if_win32
+     1>inet.obj : error LNK2001: unresolved external symbol _PacketGetNetInfoEx
+     1>pcap-new.obj : error LNK2019: unresolved external symbol _PacketSetMinToCopy referenced in function _pcap_open
+     1>pcap-win32.obj : error LNK2001: unresolved external symbol _PacketSetMinToCopy
+     1>pcap-new.obj : error LNK2019: unresolved external symbol _PacketSetLoopbackBehavior referenced in function _pcap_open
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSetMode referenced in function _pcap_setmode_win32
+     1>Win32-Extensions.obj : error LNK2001: unresolved external symbol _PacketSetMode
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSetReadTimeout referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSetBpf referenced in function _pcap_setfilter_win32_npf
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketGetStats referenced in function _pcap_stats_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSetBuff referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketGetNetType referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketOpenAdapter referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSendPacket referenced in function _pcap_inject_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketAllocatePacket referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketInitPacket referenced in function _pcap_activate_win32
+     1>Win32-Extensions.obj : error LNK2001: unresolved external symbol _PacketInitPacket
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketFreePacket referenced in function _pcap_cleanup_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketReceivePacket referenced in function _pcap_read_win32_npf
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketSetHwFilter referenced in function _pcap_activate_win32
+     1>pcap-win32.obj : error LNK2019: unresolved external symbol _PacketCloseAdapter referenced in function _pcap_cleanup_win32
+     1>pcap.obj : error LNK2019: unresolved external symbol _PacketGetVersion referenced in function _pcap_lib_version
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketGetStatsEx referenced in function _pcap_stats_ex
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketSendPackets referenced in function _pcap_sendqueue_transmit
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketGetReadEvent referenced in function _pcap_getevent
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketSetDumpName referenced in function _pcap_live_dump
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketSetDumpLimits referenced in function _pcap_live_dump
+     1>Win32-Extensions.obj : error LNK2019: unresolved external symbol _PacketIsDumpEnded referenced in function _pcap_live_dump_ended
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\lib\v120\wpcapd.dll : fatal error LNK1120: 26 unresolved externals
+     1>Done Building Project "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\wpcap.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.04

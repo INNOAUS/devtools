@@ -1,0 +1,57 @@
+﻿Build started 5/14/2014 8:23:10 AM.
+     1>Project "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\wpcap.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\libpcap /I..\libpcap\lbl /I..\libpcap\bpf\ /I..\..\common /I..\libpcap\win32\include /I"..\Win32-Extensions" /I..\..\..\AirPcap_DevPack\include /Zi /nologo /W3 /WX- /O2 /GL /D LIBPCAP_EXPORTS /D WIN32 /D NDEBUG /D _WINDOWS /D HAVE_ADDRINFO /D YY_NEVER_INTERACTIVE /D yylval=pcap_lval /D HAVE_STRERROR /D __STDC__ /D INET6 /D SIZEOF_CHAR=1 /D SIZEOF_SHORT=2 /D SIZEOF_INT=4 /D WPCAP /D HAVE_SNPRINTF /D HAVE_VSNPRINTF /D HAVE_REMOTE /D HAVE_AIRPCAP_API /D _U_= /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D HAVE_TC_API /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Release\x64\\" /Fd"F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\\Release\x64\vc120.pdb" /Gd /TC /errorReport:prompt ..\libpcap\bpf_dump.c ..\libpcap\bpf\net\bpf_filter.c ..\libpcap\bpf_image.c ..\libpcap\etherent.c "..\libpcap\fad-win32.c" ..\libpcap\Win32\Src\ffs.c ..\libpcap\gencode.c ..\libpcap\Win32\Src\getservent.c ..\libpcap\grammar.c ..\libpcap\inet.c ..\libpcap\nametoaddr.c ..\libpcap\optimize.c "..\libpcap\pcap-new.c" "..\libpcap\pcap-remote.c" "..\libpcap\pcap-tc.c" "..\libpcap\pcap-win32.c" ..\libpcap\pcap.c ..\libpcap\savefile.c ..\libpcap\scanner.c ..\libpcap\sockutils.c "..\Win32-Extensions\Win32-Extensions.c"
+         bpf_dump.c
+         bpf_filter.c
+     1>..\libpcap\bpf\net\bpf_filter.c(283): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\libpcap\bpf\net\bpf_filter.c(342): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\libpcap\bpf\net\bpf_filter.c(359): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\libpcap\bpf\net\bpf_filter.c(501): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>..\libpcap\bpf\net\bpf_filter.c(544): warning C4018: '<' : signed/unsigned mismatch
+     1>..\libpcap\bpf\net\bpf_filter.c(642): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\libpcap\bpf\net\bpf_filter.c(650): warning C4018: '>=' : signed/unsigned mismatch
+         bpf_image.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         etherent.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         fad-win32.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         ffs.c
+         gencode.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         getservent.c
+         grammar.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         inet.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         nametoaddr.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         optimize.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         pcap-new.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         pcap-remote.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         pcap-tc.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         pcap-win32.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         pcap.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         savefile.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         scanner.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+         sockutils.c
+     1>..\libpcap\sockutils.c(308): warning C4244: '=' : conversion from 'SOCKET' to 'unsigned int', possible loss of data
+     1>..\libpcap\sockutils.c(342): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\libpcap\sockutils.c(376): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         Compiling...
+         Win32-Extensions.c
+     1>F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\common\Packet32.h(51): fatal error C1083: Cannot open include file: 'airpcap.h': No such file or directory
+     1>Done Building Project "F:\devrepo\innoaus\WpdPack-4.1.2\Downloads\WpcapSrc_4_1_3\winpcap\wpcap\PRJ\wpcap.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.57
