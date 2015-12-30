@@ -103,7 +103,9 @@ extern "C" {
 
 #define LIBNET_API /*__declspec(dllexport)*/
 
+#ifndef _MSC_VER
 #include "libnet/stdint.h"
+#endif
 #include "libnet/libnet-macros.h"
 #include "libnet/libnet-headers.h"
 #include "libnet/libnet-structures.h"
