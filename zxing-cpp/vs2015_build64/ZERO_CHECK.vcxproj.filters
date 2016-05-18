@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\cf9fbddfa724b99ce7a9d2d4e639193a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7E709973-6038-3F5D-A8B6-96522EE6826B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

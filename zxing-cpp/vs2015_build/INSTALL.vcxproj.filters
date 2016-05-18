@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\8320d54beb257043151514618cd75386\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9747B11F-FC55-3AA2-8736-A3912BA546C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
