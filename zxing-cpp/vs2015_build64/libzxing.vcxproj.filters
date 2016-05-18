@@ -642,10 +642,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{60BCBA2E-E99F-39B7-A238-5C15011411A0}</UniqueIdentifier>
+      <UniqueIdentifier>{1948133F-74A2-3B1F-BE40-7C5643A257E0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{49294F1B-86BC-3FEF-9AFA-33FA067FF932}</UniqueIdentifier>
+      <UniqueIdentifier>{325B8114-C313-3384-9325-8AF2161C6201}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

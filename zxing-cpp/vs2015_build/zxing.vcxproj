@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{309D76E0-0309-3EA7-A0BF-EFF2D0B735DC}</ProjectGUID>
+    <ProjectGUID>{6B367FBF-AFD7-37E9-9453-2BC27FC9B6AA}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zxing.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zxing</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zxing.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zxing</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zxing.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zxing</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zxing.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zxing</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -120,8 +120,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/build/Debug/zxing.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/build/Debug/zxing.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/Debug/zxing.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/Debug/zxing.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -164,8 +164,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/build/Release/zxing.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/build/Release/zxing.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/Release/zxing.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/Release/zxing.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -208,8 +208,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/build/MinSizeRel/zxing.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/build/MinSizeRel/zxing.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/MinSizeRel/zxing.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/MinSizeRel/zxing.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -252,8 +252,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/build/RelWithDebInfo/zxing.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/build/RelWithDebInfo/zxing.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/RelWithDebInfo/zxing.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git-innoaus/devtools/zxing-cpp/vs2015_build/RelWithDebInfo/zxing.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -265,7 +265,7 @@
     <CustomBuild Include="D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp
+D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/vs2015_build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,12 +273,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp
+D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/vs2015_build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,12 +286,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp
+D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/vs2015_build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,12 +299,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp
+D:\devtools\CMake\bin\cmake.exe -HD:/git-innoaus/devtools/zxing-cpp -BD:/git-innoaus/devtools/zxing-cpp/vs2015_build --check-stamp-file D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,8 +312,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git-innoaus\devtools\zxing-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/git-innoaus/devtools/zxing-cpp/CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCCompiler.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeCXXCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\3.5.0\CMakeRCCompiler.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindIconv.cmake;D:\devtools\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;D:\git-innoaus\devtools\zxing-cpp\cmake\FindCPPUNIT.cmake;D:\git-innoaus\devtools\zxing-cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -327,11 +327,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\git-innoaus\devtools\zxing-cpp\cli\src\main.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/build/ZERO_CHECK.vcxproj">
-      <Project>43069AEC-E6C4-3A11-89C8-7AEF03E4B7F3</Project>
+    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/vs2015_build/ZERO_CHECK.vcxproj">
+      <Project>09E6C570-7B44-3BA5-BF90-040372B40FF8</Project>
     </ProjectReference>
-    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/build/libzxing.vcxproj">
-      <Project>F6D6CBAD-C85C-387E-B607-76BFDAC31A9D</Project>
+    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/vs2015_build/libzxing.vcxproj">
+      <Project>3856A2B4-7EFD-3139-ADBA-E3AB58D08E34</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D6D8FDB5-3727-342C-9B3E-46B04BFB57F3}</ProjectGUID>
+    <ProjectGUID>{3C948F51-B7DC-31C0-AD66-1E821BE9ABAE}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -153,7 +153,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\cf9fbddfa724b99ce7a9d2d4e639193a\INSTALL_force.rule">
+    <CustomBuild Include="D:\git-innoaus\devtools\zxing-cpp\vs2015_build64\CMakeFiles\978670a9daadd6803637bb3ab79a169c\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -164,8 +164,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/git-innoaus/devtools/zxing-cpp/build64/CMakeFiles/cf9fbddfa724b99ce7a9d2d4e639193a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/978670a9daadd6803637bb3ab79a169c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build64\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -177,8 +177,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/git-innoaus/devtools/zxing-cpp/build64/CMakeFiles/cf9fbddfa724b99ce7a9d2d4e639193a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/978670a9daadd6803637bb3ab79a169c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build64\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -190,8 +190,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/git-innoaus/devtools/zxing-cpp/build64/CMakeFiles/cf9fbddfa724b99ce7a9d2d4e639193a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/978670a9daadd6803637bb3ab79a169c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build64\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -203,17 +203,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/git-innoaus/devtools/zxing-cpp/build64/CMakeFiles/cf9fbddfa724b99ce7a9d2d4e639193a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git-innoaus\devtools\zxing-cpp\build64\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/978670a9daadd6803637bb3ab79a169c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git-innoaus\devtools\zxing-cpp\vs2015_build64\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/build64/ZERO_CHECK.vcxproj">
-      <Project>33872935-CE7B-3D44-8E00-5847AEAB9802</Project>
+    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/ZERO_CHECK.vcxproj">
+      <Project>04F5CB52-DC5F-3AE9-A5DF-AD0A3DEF4A37</Project>
     </ProjectReference>
-    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/build64/ALL_BUILD.vcxproj">
-      <Project>11C89015-D695-3C6A-92C2-95B20FD8706F</Project>
+    <ProjectReference Include="D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/ALL_BUILD.vcxproj">
+      <Project>6EC9CED7-2039-3D10-BD37-2C3989A16C61</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
