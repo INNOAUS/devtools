@@ -1,5 +1,0 @@
-D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/libzxing.dir
-D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/zxing.dir
-D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/INSTALL.dir
-D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/ALL_BUILD.dir
-D:/git-innoaus/devtools/zxing-cpp/vs2015_build64/CMakeFiles/ZERO_CHECK.dir
